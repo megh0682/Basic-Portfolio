@@ -57,7 +57,7 @@ border-style:outset
 }
 
 
-.mainclass{
+.maincontact{
 position:fixed;
 top:100px;
 margin-left:200px;
@@ -67,18 +67,19 @@ background-color:#eeeeee;
 border:#dddddd 1px solid;
 overflow:auto;
 }
-.section{
+.sectioncontact{
 position:fixed;
 width:450px;
 margin:50px 50px 50px 100px;
 height:350px;
 font-variant: small-caps;
-color: #eeeeee;
-font-size: 16px;
+color: #666666;
+font-variant:small-caps;
+font-size:0.75em;
 background-color:#ffffff;
-overflow:auto;
+overflow:hidden;
 }
-.aboutme{
+.contact{
 font-size: 24px;
 font-variant: normal;
 color: #4aaaa5;
@@ -94,6 +95,7 @@ margin:10px 0px 0px 30px;
 padding:0px 10px 0px 10px;
 float:left;
 }
+
 p{
 margin:0px 10px 10px 30px;
 font-size:14px;
@@ -108,8 +110,8 @@ margin:50px 50px 10px 600px;
 height:150px;
 background-color:#ffffff;
 overflow:auto;
-
 }
+
 .footer{
 margin-left:200px;
 width:900px;
@@ -123,10 +125,12 @@ color:#fff;
 font-size:xx-small;
 padding:30px;
 }
+
 .clearfix{
 clear:both;
 display:none;
 }
+
 .connectwithme{
 margin:5px 15px 5px 20px;
 padding:10px 0px 10px 0px;
@@ -136,10 +140,63 @@ font-size:20px;
 font-weight:bold;
 color:#4aaaa5;
 }
+
 .aside img{
 padding:5px;
 }
+
 .imgdiv{
 margin: 5px 5px 5px 20px;
 }
 
+label{
+padding:20px 10px 10px 10px;
+margin:10px 35px 10px 35px;
+}
+ 
+input[type=text], input[type=Email] {
+    width: 80%;
+    padding:0px 0px 10px 10px;
+    margin:5px 65px 5px 45px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    box-sizing: border-box;
+    display:block;
+}
+
+textarea{
+    width: 80%;
+    height:25%;
+    padding:0px 0px 10px 10px;
+    margin:5px 65px 5px 45px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    box-sizing: border-box;
+    display:block;
+    overflow:overlay;
+
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding:10px 10px 10px 10px;
+    margin:10px 35px 10px 45px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    display:block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width:30%;
+    font-variant:small-caps;
+    font-size:1em;
+}
+
+input[type=submit]:hover {
+   
+    background-color: #4aaaa5;
+}

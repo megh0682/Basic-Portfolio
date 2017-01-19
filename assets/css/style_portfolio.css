@@ -57,28 +57,28 @@ border-style:outset
 }
 
 
-.mainclass{
+.mainclass_portfolio{
 position:fixed;
 top:100px;
 margin-left:200px;
 width:960px;
-height:72%;
+height:100%;
 background-color:#eeeeee;
 border:#dddddd 1px solid;
-overflow:auto;
+overflow:scroll;
 }
-.section{
+.section_portfolio{
 position:fixed;
 width:450px;
 margin:50px 50px 50px 100px;
-height:350px;
+height:100%;
 font-variant: small-caps;
 color: #eeeeee;
 font-size: 16px;
 background-color:#ffffff;
-overflow:auto;
+overflow:scroll;
 }
-.aboutme{
+.aboutme_portfolio{
 font-size: 24px;
 font-variant: normal;
 color: #4aaaa5;
@@ -89,11 +89,98 @@ margin:10px 35px 10px 35px;
 border-bottom:#eeeeee 2px solid;
 }
 
-.section img{
+.section_portfolio img{
 margin:10px 0px 0px 30px;
 padding:0px 10px 0px 10px;
 float:left;
+z-index: -1;
 }
+
+.overlapimg1{
+position:absolute;
+top:160px;
+left:10px;
+display: inline;
+float: left;
+background-color:#4aaaa5;
+width: 140px;
+height: 30px;
+margin:10px 0px 0px 30px;
+padding:10px 10px 0px 10px;
+text-align:center;
+
+}
+
+.overlapimg2{
+position:absolute;
+top:160px;
+left:220px;
+display: inline;
+float: left;
+background-color:#4aaaa5;
+width: 140px;
+height: 30px;
+margin:10px 0px 0px 30px;
+padding:10px 10px 0px 10px;
+text-align:center;
+}
+
+.overlapimg3{
+position:absolute;
+top:290px;
+left:10px;
+display: inline;
+float: left;
+background-color:#4aaaa5;
+width: 140px;
+height: 30px;
+margin:10px 0px 0px 30px;
+padding:10px 10px 0px 10px;
+text-align:center;
+}
+
+.overlapimg4{
+position:absolute;
+top:290px;
+left:220px;
+display: inline;
+float: left;
+background-color:#4aaaa5;
+width: 140px;
+height: 30px;
+margin:10px 0px 0px 30px;
+padding:10px 10px 0px 10px;
+text-align:center;
+}
+
+.overlapimg5{
+position:absolute;
+top:420px;
+left:10px;
+display: inline;
+float: left;
+background-color:#4aaaa5;
+width: 140px;
+height: 30px;
+margin:10px 0px 0px 30px;
+padding:10px 10px 0px 10px;
+text-align:center;
+}
+
+.overlapimg6{
+position:absolute;
+top:420px;
+left:220px;
+display: inline;
+float: left;
+background-color:#4aaaa5;
+width: 140px;
+height: 30px;
+margin:10px 0px 0px 30px;
+padding:10px 10px 0px 10px;
+text-align:center;
+}
+
 p{
 margin:0px 10px 10px 30px;
 font-size:14px;
@@ -109,19 +196,6 @@ height:150px;
 background-color:#ffffff;
 overflow:auto;
 
-}
-.footer{
-margin-left:200px;
-width:900px;
-border:#666666 1px solid;
-border-top:#4aaaa5 5px solid;
-background-color:#666666;
-position: fixed;
-top:550px;
-text-align:center;
-color:#fff;
-font-size:xx-small;
-padding:30px;
 }
 .clearfix{
 clear:both;
