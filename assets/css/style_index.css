@@ -3,6 +3,7 @@ margin:0 auto;
 padding:0;
 font:sans-serif;
 font-size: 18px;
+background-image: url("https://analogaddiction.files.wordpress.com/2013/08/grey-background-for-site11.jpg");
 }
 
 /** header, nav, ul,li style for top navigation*/
@@ -11,23 +12,25 @@ font-size: 18px;
 header{
 margin-left:200px;
 width:960px;
-border-bottom:#666666 2px solid;
 position: fixed;
 }
 
 header h1{
-width: 15%;
-height:70px;
 position:fixed;
 left:180px;
+width: 15%;
+height:70px;
 margin:20px 100px 0px 100px;
 padding: 30px 0px 0px 0px;
 text-align: center;
-background-color:#4aaaa5;
+font:"Georgia";
+font-size:x-large;
+font-weight:bold;
+background-color:#0191C8;
 overflow:hidden;
 color: #fff;
-
 }
+
 header nav{
 width: 25%;
 margin:10px 10px 0px 10px;
@@ -43,19 +46,16 @@ padding:10px;
 header nav ul{
 position:fixed;
 list-style-type: none;
-margin: 0px 0px 0px 180px;
+margin: 0px 0px 0px 110px;
 padding:0px;
-background-color: #fff;
-position:fixed;
 }
-
 header nav ul li{
 display:inline;
-margin:5px;
-padding:0px 10px 0px 10px;
-left:500px;
+margin:0px;
+padding:5px 10px 5px 10px;
 font-weight:bold;
-border-style:outset
+border-style:outset;
+background-color: #eeeeee;;
 }
 
 
@@ -79,16 +79,18 @@ color: #eeeeee;
 font-size: 16px;
 background-color:#ffffff;
 overflow:auto;
+background-color:#ddd;
 }
 .aboutme{
 font-size: 24px;
 font-variant: normal;
-color: #4aaaa5;
+color: #0191C8;
 font:serif;
 font-weight:bold;
 padding:20px 10px 10px 10px;
 margin:10px 35px 10px 35px;
 border-bottom:#eeeeee 2px solid;
+
 }
 
 .section img{
@@ -108,15 +110,16 @@ position:fixed;
 width:270px;
 margin:50px 50px 10px 600px;
 height:150px;
-background-color:#ffffff;
+background-color:#ddd;
 overflow:auto;
 
 }
 .footer{
 margin-left:200px;
+height:10px;
 width:900px;
 border:#666666 1px solid;
-border-top:#4aaaa5 5px solid;
+border-top:#0191C8 5px solid;
 background-color:#666666;
 position: fixed;
 top:550px;
@@ -136,7 +139,7 @@ border-bottom:#eeeeee 2px solid;
 font:sans-serif;
 font-size:20px;
 font-weight:bold;
-color:#4aaaa5;
+color:#0191C8;
 }
 .aside img{
 padding:5px;
