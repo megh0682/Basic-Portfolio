@@ -34,9 +34,8 @@ color: #fff;
 header nav{
 width: 25%;
 margin:10px 10px 0px 10px;
-position:absolute;
+position:relative;
 left:550px;
-top:40px;
 text-align:center;
 color:#666666;
 padding:10px;
@@ -46,7 +45,7 @@ padding:10px;
 header nav ul{
 position:fixed;
 list-style-type: none;
-margin: 0px 0px 0px 110px;
+margin: 20px 0px 0px 110px;
 padding:0px;
 }
 header nav ul li{
@@ -55,6 +54,7 @@ margin:0px;
 padding:5px 20px 5px 20px;
 font-weight:bold;
 }
+
 
 
 .mainclass{

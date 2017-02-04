@@ -1,0 +1,111 @@
+/********************************************MEDIA QUERIES*******************************************************/
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+.mainclass {
+display: none;
+}
+h1{
+	display: none;
+}
+nav{
+	display: none;
+}
+
+.maincontact {
+display: none;
+}
+.mainclass_portfolio {
+display: none;
+}
+
+.section img{
+display: none;
+}
+
+.aboutme_portfolio img{
+display: none;
+}
+
+#smallerscreen{
+	visibility: visible;
+	background-color:grey;
+	color: red;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+}
+
+/** Tablet **/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+.aboutme_portfolio img{
+display: none;
+}
+.mainclass {
+display: none;
+}
+
+.maincontact {
+display: none;
+}
+.mainclass_portfolio {
+display: none;
+}
+
+.section img{
+display: none;
+}
+
+#smallerscreen{
+	visibility: visible;
+	background-color:grey;
+	color: red;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+}
+
+/** Tablet (landscape) **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+.aboutme_portfolio img{
+display: none;
+}
+
+.mainclass {
+display: none;
+}
+
+.maincontact {
+display: none;
+}
+.mainclass_portfolio {
+display: none;
+}
+
+.section img{
+display: none;
+}
+
+#smallerscreen{
+	visibility: visible;
+	background-color:grey;
+	color: red;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+  #smallerscreen {
+  	visibility: hidden;
+    
+  }
